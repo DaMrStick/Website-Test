@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<body style="margin: 0;">
+
+<canvas id="myCanvas" style="background: green;"></canvas>
+
+<div id="out" style="white-space:pre; font-size:18px;"></div>
+
+
+<script>
+var canvas = document.getElementById("myCanvas")
+canvas.width = document.documentElement.clientWidth
+canvas.height = document.documentElement.clientHeight
+
+canvas.style.width = "100vw";
+canvas.style.height = "100vh";
+canvas.style.display = "block";
+
+var ctx = canvas.getContext('2d')
+ctx.fillStyle = "#00FFFF"
+ctx.fillRect(0,0,10,10)
+
+</script>
+</body>
+
+</html>

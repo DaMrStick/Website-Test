@@ -1,2 +1,2 @@
-if this works that's cool
+my first test of making my own website
 
